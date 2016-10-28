@@ -24,5 +24,5 @@ def f(x):
     '''
     if type(x) not in [int, float]:
         raise ValueError('Parameter must be integer or float.')
-    y = x ** 2
+    y = x * x  # this line is changed
     return y
